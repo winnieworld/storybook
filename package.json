@@ -5,6 +5,8 @@
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "@craco/craco": "^7.1.0",
+    "@storybook/addon-designs": "^7.0.5",
+    "@storybook/addon-docs": "^7.3.1",
     "@storybook/addon-knobs": "^7.0.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "storybook-addon-designs": "^6.3.1",
     "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
   },
@@ -44,10 +47,12 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-designs": "^7.0.5",
     "@storybook/addon-essentials": "^7.3.0",
     "@storybook/addon-interactions": "^7.3.0",
     "@storybook/addon-links": "^7.3.0",
     "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-storysource": "^7.3.1",
     "@storybook/blocks": "^7.3.0",
     "@storybook/jest": "^0.1.0",
     "@storybook/preset-create-react-app": "^7.3.0",
@@ -55,7 +60,7 @@
     "@storybook/react-webpack5": "^7.3.0",
     "@storybook/testing-library": "^0.2.0",
     "babel-plugin-named-exports-order": "^0.0.2",
-    "chromatic": "^6.22.0",
+    "chromatic": "^6.23.0",
     "eslint-plugin-storybook": "^0.6.13",
     "prop-types": "^15.8.1",
     "storybook": "^7.3.0",

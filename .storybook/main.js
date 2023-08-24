@@ -7,7 +7,11 @@ const config = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
+    "@storybook/addon-knobs",
+    "@storybook/addon-docs",
+    "@storybook/addon-designs",
   ],
+
   framework: {
     name: "@storybook/react-webpack5",
     options: {},
@@ -18,3 +22,5 @@ const config = {
   staticDirs: ["../public"],
 };
 export default config;
+
+// npx chromatic --project-token=chpt_21443a090578a85

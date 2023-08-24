@@ -12,7 +12,8 @@ function App() {
       <Menu type="item" selected>
         item
       </Menu>
-      <Button>button</Button>
+      <Button label="button" />
+      <Button Size="Big" BgColor="white" label="helloworld" />
     </div>
   );
 }
